@@ -1,2 +1,9 @@
 # New-York-Motor-Vehicles-Collision-using-spark
-Big Data Analytics
+Big Data Analytics:
+In our project on Motor Vehicle Collisions and Crashes, we delved deep into a comprehensive dataset of road accidents in New York to draw out insights and patterns that could enhance road safety measures. Our objective was to identify high-risk areas, peak collision times, frequent causes of accidents, and evaluate the severity of incidents in terms of injuries, fatalities, and property damage. By leveraging advanced analytics and visualizations, we sought to inform strategies that can lead to safer roads.
+
+Our dataset came from Data.gov and included detailed information like timestamps, location data, vehicle information, injury and fatality data, and causal factors. With 31 variables and 103,880 records, we utilized machine learning models like Decision Tree, Random Forest, Linear Regression, and multi-class logistic regression to analyze and predict outcomes. The insights we gained included identifying vehicle types most involved in collisions, understanding the borough-specific collision rates, and determining the most frequent reasons for collisions.
+
+The results from our models indicated that the Linear Regression model explained approximately 72% of the variability with an RMSE of 0.1698. For classification models like Random Forest, Decision Tree, and Multi-class Logistic Regression, accuracy ranged from 63.87% to 66.79%, with Decision Tree slightly outperforming others in terms of F1 score.
+
+Despite challenges such as managing numerous categorical variables, large data size, and weak correlations, we achieved our prediction and inference goals. While the results can be further improved with more nuanced feature selection and transformation, the project was successful in providing substantial insights and recommendations for enhancing road safety through data-driven analysis. We believe our findings can significantly contribute to policy making, urban planning, and traffic management to promote safer travel conditions.
